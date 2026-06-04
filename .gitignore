@@ -1,0 +1,50 @@
+# System / OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Node
+node_modules/
+.vite/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+pip-wheel-metadata/
+.python-version
+.coverage
+htmlcov/
+
+# Docker / env
+.env
+.env.local
+.env.*.local
+docker-compose.override.yml
+.docker/
+
+# PostgreSQL data
+data/
+pgdata/
+
+# Allow keeping backend CSVs in the repository
+!/src/backend/data/
+!/src/backend/data/**
+
+# Logs / misc
+*.log
+logs/
+.cache/
