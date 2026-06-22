@@ -12,6 +12,8 @@ services:
     container_name: backend
     ports:
       - "8030:8000"
+    volumes:
+      - ./src/backend:/app:Z
     environment:
       - DB_HOST=database
     depends_on:
